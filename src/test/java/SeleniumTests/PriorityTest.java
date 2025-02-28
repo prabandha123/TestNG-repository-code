@@ -35,6 +35,10 @@ public class PriorityTest {
 		System.out.println("BlueTest");
 	}
 
+	@Test(priority=6)
+	public void BlueTest() {
+		System.out.println("Testing priority");
+	}
 	
 
 }
